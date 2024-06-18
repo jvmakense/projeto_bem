@@ -23,7 +23,7 @@ body {
 }
 
 a {
-    color: variaveis.$bgOrange;
+    color: variaveis.$colorOrange;
     cursor: pointer;
 }
 
@@ -39,7 +39,7 @@ a {
     font-family: "Embed code", sans-serif;
     font-size: $font-size;
     font-weight: 800;
-    color: #FF7043;
+    color: variaveis.$colorOrange;
 }
 
 .title {
