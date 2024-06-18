@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+.plus {
+    margin: 6vh 64px;
+
+    &__columns {
+        display: flex;
+        max-height: 550px;
+
+        &__column {
+            width: 50%;
+            text-align: center;
+            justify-content: center;    
+
+            &--subtitle {
+                margin: 24px auto;
+            }
+            
+        }
+    }
+}

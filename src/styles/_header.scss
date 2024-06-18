@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    &__container {
+        display: flex;
+        align-items: center;
+
+        &__itens {
+            display: flex;
+            margin: auto 0;
+            align-items: center;
+
+            &__item {
+                margin: auto 16px;
+                list-style-type: none;
+            }
+        }
+    }
+}
